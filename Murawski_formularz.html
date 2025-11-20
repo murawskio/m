@@ -1,0 +1,54 @@
+<!DOCTYPE>
+<html lang="PL-pl>
+<title> formularz na ocene </title>
+<body>
+<form>
+<p>ADRES:
+<p><input type="radio" name="adres" value="firmowy">firmowy</p>
+<p><input type="radio" name="adres" value="prywatny"/>prywarny</p> <br/> </p>
+<p>Nazwa / Nazwisko i Imię<input type="text" name="nazwisko_i_imie"/>
+<p>ulica i numer budynku<input type="text" name="ulica_i_numer_budynku"/>
+<p>kod pocztowy<input type="text" name="kod" pattern="[0-9]{2}-[0-9]{3}">
+<p>miejscowość<input type="text" name="miejscowosc">
+<p>Telefon<input type="text" name="telefon">
+<p>E-mail<input type="text" name="E-mail" value="email@wp.pl"/>
+</form>
+<form>
+<p>WYSYŁKA:
+<p>Przesyłka<input list="blok" name="przesylka"/>
+<datalist id="blok">
+<option valiue="Ekonomiczna">
+<option valiue="Priorytetowa">
+<option valiue="Ekspresowa">
+</datalist>
+<p>Waga(g)<input type="text" name="waga">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
