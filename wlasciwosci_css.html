@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head><meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Strona Oliwiera-Projektowanie Stron Internetowych</title>    
+<style type="text/css">
+p {
+font-family: "Courier New";
+font-style: italic;
+font-weight:500;
+font-size: 20px;
+color: maroon;
+}
+blockquote {
+font-family: fantasy;
+font-style: italic;
+font-weight: bolder;
+font-size: 30px;
+font-variant: small-caps;
+color: teal;
+}
+em {
+font-family:"Times New Roman";
+font-weight:400;
+font-size:25px;
+color: orange;
+}
+h1 {
+text-decoration: underline;
+line-height: 100%;
+text-align: center;
+color: green;
+text-transform: lowercase;
+letter-spacing: 2px;
+}
+h4 {
+color: magenta;
+text-decoration: line-through;
+line-height: 2cm;
+text-align: right;
+text-transform: capitalize;
+text-indent: 50px;
+letter-spacing: 5px;
+}
+h3 {
+text-decoration: underline;
+word-spacing: 15px;
+text-align: left;
+color: red;
+text-transform: uppercase;
+}
+#obramowanie1 {
+border-style: dashed;
+border-color: aqua;
+border-width: medium;
+width: 40%;}
+.Klasa_h2{
+border-style: dashed;
+border-color: aqua;
+border-width:medium;
+background-color: yellow;}
+.zadanie1{
+color:silver;background-color:black;
+border-color:yellow; border-style:ridge; 
+font-size:30px; text-align:right;text-decoration:none;}
+#zadanie2{text-decoration:underline;
+letter-spacing: 5pt;
+taxt-align:center;
+color: white;
+background-color: fuchsia;
+border: 3px dotted white;
+padding: 20px;
+width:70%;
+margin: 20px auto;}
+.zadanie5{border-color: pink; 
+text-align: center;
+background-color: red;
+color: blue;}
+#ramka1{background-color: white;
+color: black;
+padding: 10px;
+width:70%;
+border: 30px solid transparent;
+border-image: url(foty/papeteria.jpg) 50 stretch;}
+#ramka2{background-color: white;
+color: black;
+padding: 10px;
+width:70%;
+border: 30px solid transparent;
+border-image: url(foty/papeteria.jpg) 50 round;}
+#ramka3 {
+  background: none;
+  color: black;
+  padding: 5px;
+  width: 33%;
+  border: 50px solid ;
+  border-image: url(foty/gwiazdka1.gif) 100 round;
+}
+
+#ramka3a {
+  background: none;
+  color: black;
+  padding: 5px;
+  width: 33%;
+  border: 50px solid;
+  border-image: url(foty/gwiazdka1.gif) 30 round;
+}
+
+#ramka3b {
+  background: none;
+  color: black;
+  padding: 5px;
+  width: 33%;
+  border: 50px solid ;
+  border-image: url(foty/gwiazdka1.gif) 20 round;
+}
+a.raz:link {color:black;
+text-decoration:none; background-color:fuchsia;
+border:1px solid black; border-radius:5px;
+}
+a.raz:visited{color:black;
+text-decoration:none; background-color:fuchsia;
+border:1px solid black; border-radius:5px;
+}
+a.raz:active{color:silver;
+text-decoration:none; background-color:black;
+border:1px dashed silver; border-radius:5px;
+}
+a.raz:hover{color:yellow;
+text-decoration:none; background-color:green;
+border:1px dotted yellow; border-radius:5px;
+}
+a.dwa:link {color:black;
+text-decoration:none; background-color:yellow;
+border:1px solid black; border-radius:5px; padding:10px;
+}
+a.dwa:visited{color:black;
+text-decoration:none;
+ background-color:yellow;
+border:1px solid black;
+ border-radius:5px;
+ padding:10px;
+}
+a.dwa:active{color:silver;
+text-decoration:none; 
+background-color:black;
+border:1px dashed silver; 
+border-radius:5px; padding:10px;
+}
+a.dwa:hover{color:yellow;
+text-decoration:none; 
+background-color:green;
+border:1px dotted yellow;
+ border-radius:5px; 
+ padding:10px;
+}
+ul.punkty{list-style-type:upper-alpha;
+list-style-position:outside; 
+color:fuchsia; font-family:sans-serif;
+}
+ol.numer{list-style-type:upper-alpha;
+list-style-position:inside; 
+color:fuchsia; font-family:sans-serif;
+}
+
+ul.punkty {
+ list-style-type: circle;
+ list-style-position: outside;
+ color: fuchsia;
+ font-family: sans-serif;
+}
+
+ol.numer {
+ list-style-type: upper-alpha;
+ list-style-position: inside;
+ color: darkgreen;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ol.gwiazdka {
+ list-style-image: url(foty/gwiazdka1.gif);
+ list-style-position: inside;
+ 
+}
+
+.balwan {
+list-style-image: url(foty/Bałwan1.gif);
+}
+
+.balwan2 {
+list-style-image: url(foty/bałwan1resized.gif);
+}
+
+table#kursor {
+cursor:crosshair;
+}
+div#rozmiar {
+cursor:help;
+width:45px;
+background-color:transparent;
+border-color:transparent;
+border-style:dotted;
+}
+
+</style>
+</head>
+<body>
+<div style="background-color:grey;">
+<h1><center>Projektowanie Stron Internetowych- Oliwier Murawski</center></h1>
+</div>
+<div style="float:left; width:30%; height:7000px; background-color:aqua;">
+<h3>HTML</h3>
+<a href="index.html">STRONA GŁÓWNA</a><br/><br/>
+<a href="kolory.html">KOLORY</a><br/><br/>
+<a href="nauczyciele.html">NAUCZYCIELE</a><br/><br/>
+<a href="zdjecia.html">ZDJĘCIA</a><br/><br/>
+<a href="tabele.html">TABELA</a><br/><br/>
+<a href="murawski_tabela.html">TABELA NA OCENE</a><br/><br/>
+<a href="lista.html">LISTA</a><br/><br/>
+<a href="lista_na_ocene">LISTA NA OCENE <a><br/><br/>
+<a href="formularz.html">FORMULARZ <a><br/><br/>
+<a href="Murawski_formularz.html">FORMULARZ NA OCENE<a><br/><br/>
+<a href="mapy_odsyłaczy">MAPY ODSYŁACZY</a><br/><br/>
+<a href="zdarzenia.html">ZDARZENIA</a><br/><br/>
+<a href="canvas">CANVAS</a><br/><br/>
+<h3> STREFA JĘZYKA "CSS" </h3>
+<a href="wlasciwosci_css.html">CSS</a><br/><br/>
+<a href="tabela_css.html">TABELE_CSS</a><br/><br/>
+<a href="selektory_elementow.html">SELEKTORY ELEMENTÓW><br/><br/>
+<a href="selektory_atrybutow.html">SELEKTORY ATRYBUTÓW><br/><br/>
+
+<h3> STREFA MULTIMEDIALNA </h3>
+<a href="audio_video.html"> AUDIO & VIDEO </a> <br /><br/>
+<h3> STREFA DOKUMENTÓW </h3>
+<a href="dok/lista.docx"> WORD - LISTA GRUPY </a> <br /><br/>
+<a href="dok/lista.xlsx"> EXCEL - LISTA GRUPY </a> <br /><br/>
+<h3> STREFA LINKÓW </h3>
+<a href="https://www.google.com" target="new">
+<img src="foty/google.webp" width="100px" /></a><br/><br/>
+<a href="https://www.tsi-pai.cba.pl" target="new">
+<img src="foty/pyt.jpg" width="100px" /></a><br/><br/>
+</div>
+<div style="float:right; width:69%">
+
+<h3>zadanie I - CZCIONKA:</h3>
+<p>Formatowanie akapitu p: krój czcionki – Courier New, styl – pochylenie,
+grubość – 500, rozmiar – 20 px, kolor - maroon</p>
+
+ 
+
+<h3>zadanie Ia - CZCIONKA:</h3>
+<blockquote>Formatowanie blockquote: krój czcionki – fantasy, styl – pochylenie,
+grubość – bolder, rozmiar – 30px, typ czcionki - kapitaliki, kolor - teal </blockquote>
+ 
+
+<h3>zadanie Ib - CZCIONKA:</h3>
+<em>Formatowanie (wyróżnionego tekstu - uwypuklenia) EM: dowolne !!</em>
+ 
+
+ 
+
+<h3>zadanie II - TEKST:</h3>
+<h1>Formatowanie tytułu h1:
+dekoracja tekstu – nakreślenie,
+odstępy między wierszami – 100%,
+wyśrodkowanie,
+kolor tekstu – zielony,
+zamiana tekstu - małe litery
+wcięcie wiersza - 20px;
+odstępy miedzy znakami: 2px</h1>
+
+<h3>zadanie IIa - TEKST:</h3>
+Formatowanie tytułu h4:
+kolor tekstu –fioletowy, dekoracja tekstu – przekreślenia, odstępy między liniami – 2cm,
+tekst do prawej strony, zmiana tekstu – kapitaliki, wcięcie pierwszego wiersza - 50px;
+odstępy miedzy znakami: 5px:
+<h4>Formatowanie tytułu h4:
+kolor tekstu –fioletowy, dekoracja tekstu – przekreślenia, odstępy między liniami – 2cm,
+tekst do prawej strony, zmiana tekstu – kapitaliki, wcięcie pierwszego wiersza - 50px;
+odstępy miedzy znakami: 5px:</h4>
+
+<h3>zadanie IIb - MODYFIKOWANIE ZADAŃ:</h3>
+
+<h3>Formatowanie tytułu h3:
+dekoracja tekstu – podkreślenie;
+odległość między wyrazami w tekście: 15px;
+text-align: left;
+color: red;
+zmiana wielkości liter w tekście: duże litery;</h3>
+
+<h3>zadanie III – TŁO:</h3>
+tło obrazkowe url(foty/tlo.jpg), nieruchome, z powtarzaniem w poziomie, z przesunięciem o 10 % w dół strony:
+
+
+
+<div id="obramowanie1"><h3>zadanie IV – OBRAMOWANIE:</h3></div>
+
+Zadanie 1: Utwórz identyfikator dla selektora div
+identyfikator o nazwie "obramowanie1"
+
+Ustawienie OBRAMOWANIA dla div#obramowanie1: styl – kreskowanie, kolor obr. – aqua, 
+grubość - średnia, szer. 40 %
+W BODY < div id= "obramowanie1" > < h 3 > (TREŚĆ)zadanie IV ... < / h 3 > < / div >
+
+Zadanie 2: Utwórz klasę / klasę uniwersalną dla selektora h2.
+Ustawienie OBRAMOWANIA dla h2: styl – kreskowanie, kolor obr. – aqua, grubość -
+ średnia, tło: żółte
+<h2 class="Klasa_h2">zadanie IV – OBRAMOWANIE:
+Ustawienie obr. dla h2: styl – kreskowanie, kolor obr. – aqua, grubość - średnia, 
+tło żółte</h2>
+
+
+Zadanie 3: Utwórz klasę / klasę uniwersalną dla selektora h3
+klasa o nazwie "zadanie1"
+<h3 class="zadanie1">KOLOR TEKSTU: SREBRNY, CZARNE TŁO, ŻÓŁTE OBRAMOWANIE, STYL OBRAMOWANIA: RIDGE,
+DUŻE LITERY / KAPITALIKI, TEKST USTAWIONY: DO PRAWEJ, BRAK DEKORACJI</h3>
+
+
+Zadanie 4: Utwórz identyfikator / identyfikator uniwersalny dla selektora h3
+identyfikator o nazwie "zadanie2"
+<h3 id="zadanie2">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY 
+TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, 
+ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
+
+
+<h3 id="zadanie2">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY 
+TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, 
+ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
+
+Zadanie 5 - utwórz własny przykład (dla dowolnego selektora).
+To co wykonasz w sekcji head, musi być opisane w body.
+Konieczne jest obramowanie i tło.
+<h3 class="zadanie5">border-color: pink; 
+text-align: center;
+background-color: red; color: blue;</h3>
+
+Zadanie 6 - Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka1"
+zadanie IV – OBRAMOWANIE:
+<h2 id="ramka1">Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka1"
+TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;
+border-image: url(folder/nazwa.jpg) 50 stretch;
+
+OBRAZ JEST ROZCIĄGNIĘTY ABY WYPEŁNIĆ CAŁY OBSZAR.</h2>
+
+ 
+
+zadanie IV – OBRAMOWANIE:
+<h2 id="ramka2">Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka2"
+TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;
+border-image: url(folder/nazwa.jpg) 50 round;
+
+OBRAZ WYPEŁNIA OBSZAR. W RAZIE POTRZEBY JEST PRZESKALOWNY, ABY WYPEŁNIĆ OBSZAR.</h2>
+
+ 
+<table>
+<tr>
+<td>
+<h2 id="ramka3">zadanie IV – OBRAMOWANIE:
+Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3"
+TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+border-image: url(foty/gwiazdka1.gif) 100 round;</h2>
+</td>
+<td><h2 id="ramka3a">zadanie IV – OBRAMOWANIE:
+Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3a"
+TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+border-image: url(foty/gwiazdka1.gif) 30 round;</h2></td>
+<td><h2 id="ramka3b">zadanie IV – OBRAMOWANIE:
+Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3b"
+TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+border-image: url(foty/gwiazdka1.gif) 20 round;</h2></td>
+</tr>
+zadanie V – CSS: LINKI - PSEUDOKLASY
+</table>
+<a href="https://www.onet.pl" target:"new" class="raz">ONET</a>
+<a href="https://www.wp.pl"target:"new" class="raz">WIRTUALNA POLSKA </a>
+<a href="https://www.tsi-pai.cba.pl" target:"new" class="raz">STRONA TSI - PAI</a><br/>
+<br/><a href="https://www.google.com" target:"new" class="dwa">GOOGLE</a>
+<a href="https://zspm.pl" target:"new" class="dwa">ZSPM</a>
+<a href="https://www.tsi-pai.cba.pl" target:"new" class="dwa">STRONA TSI - PAI</a><br/>
+zadanie VI – LISTY:
+
+
+<ul class="punkty"> pięc zalet przedmiotu PSI
+<li>uczy jezyka html i css</li>
+<li>ciekawy przedmiot</li>
+<li>bardzo duzo nowych informacji</li>
+<li>prosty w nauce</li>
+<li>co tworze od razu otrzymuje</li>	
+</ul> 
+
+</br>
+
+<ol class="numer"> trzy wady przedmiotu PSI
+<li> bardzo duzo lekcji</li>
+<li> ciezki do nadrobienia</li>
+<li> nie ma wiecej wad </li>
+</ol>
+
+<ol class="gwiazdka">
+<li>kupić przezenty </li>
+<li class="balwan"> Kupić karpia</li>
+<li class="balwan2">kupić opłatki</li>
+<li>posprzątać </li>
+<li>ugotować 12 dań </li>
+<li>zabić karpia </li>
+</ol>
+
+<h3> ZADANIE VII -Kursor</h3>
+ <table border="2px" id="Kursor"
+  <td> 1 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+  <td> 2 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+</tr>
+</table>
+<br />
+<hr />
+<br />
+
+
+
+
+</div>
+<div style="clear:both; background-color:grey;"> <center>
+&copy; M.O., październik 2025 </center></div>
+</body>
+</html>
